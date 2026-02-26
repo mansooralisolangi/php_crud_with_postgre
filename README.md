@@ -97,5 +97,11 @@ curl http://localhost/api.php
 # GET user by id
 curl http://localhost/api.php?id=<uuid>
 
+# delet user by id
+curl http://localhost/api.php?id=<uuid>
+
+# put user by id
+curl http://localhost/api.php?id=<uuid>
+
 # POST new user
-curl -X POST -H "Content-Type: application/json" -d '{"name":"John","email":"john@example.com","phone_number":"123456"}' http://localhost/api.php
+curl -X POST -H "Content-Type: application/json" -d '{"name":"mansoor","email":"mansoor@example.com","phone_number":"123456"}' http://localhost/api.php
